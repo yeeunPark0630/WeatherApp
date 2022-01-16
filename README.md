@@ -1,6 +1,6 @@
 # WeatherApp
 
-WeatherApp by Yeeun Park
+WeatherApp by Yeeun
 
 weather logo from flaticons.com by iconxiar
 sunrise icon from freeicons.io by www.wishforge.games
