@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "axios": "^0.24.0",
-    "node-sass": "^7.0.1",
-    "styled-components": "^5.3.3"
-  }
-}
