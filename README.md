@@ -1,9 +1,14 @@
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
+1. [General Information](#general-info)
+2. [Screenshots]($screenshots)
+3. [Technologies/FrameWork](#technologies/framework)
+4. [Features](#features)
+5. [Installation](#installation)
+6. [How to use?](#howtouse?)
+7. [API References](#apireferences)
+8. [Icon References](#iconreferences)
 
-# WeatherApp
+# General Information
 
 WeatherApp is web application that uses React and javaScripts to allows user can find weather by city.
 
