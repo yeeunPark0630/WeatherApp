@@ -4,7 +4,11 @@ WeatherApp is web application that uses React and javaScripts to allows user can
 
 # Screenshots
 
+Screenshot of searching city page.\
 ![Search Page](ReadmeSources/searchpage.png)
+
+Screenshot of weather information page.\
+![Weather Page](ReadmeSources/weathercomponent.png)
 
 ## Icon References
 
