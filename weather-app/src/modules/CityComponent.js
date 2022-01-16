@@ -3,14 +3,14 @@ import styled from "styled-components";
 const WeatherLogo = styled.img`
     width: 140px;
     height: 140px;
-
+    padding: 10px;
+    margin: 10px;
 `;
 
 const SearchCityLabel = styled.span`
     color:black;
     font-size: 18px;
     font-weight: bold;
-
 `;
 
 const SearchBox= styled.form`
@@ -33,7 +33,7 @@ const SearchBox= styled.form`
     & button{
         cursor: pointer;
         color: white;
-        background-color: black;
+        background-color: #434D4C;
         padding: 10px;
         font-size: 14px;
         border: none;
@@ -42,11 +42,13 @@ const SearchBox= styled.form`
     }
 `;
 
+
+
 const CityComponent = (props) =>{
     const {updateCity, fetchWeather} = props;
     return(
         <>
-        <WeatherLogo src="/icons/weatherLogo.png" />
+        <WeatherLogo src="/icons/Sunny.png" />
         <SearchCityLabel>Find Weather</SearchCityLabel>
         <SearchBox onSubmit={fetchWeather}>
             <input placeholder="City"

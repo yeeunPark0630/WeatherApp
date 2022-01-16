@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import {useNavigate} from "react-router-dom";
+
 
 export const WeatherInfoIcons = {
     Sunrise: "/icons/Sunrise.svg",
@@ -102,6 +104,7 @@ const InfoLabel = styled.span`
     }
 `;
 
+
 const WeatherInfoComponent=(props)=>{
     const {name, value} = props;
     return(
@@ -118,6 +121,9 @@ const WeatherInfoComponent=(props)=>{
 
 
 const WeatherComponent = (props) =>{
+   // const history =  useNavigate();
+
+    
     const {weather} = props;
     const getTime = (timeStamp) => {
         return `${new Date(timeStamp * 1000).getHours()}: ${new Date(timeStamp * 1000).getMinutes()}`
@@ -137,9 +143,10 @@ const WeatherComponent = (props) =>{
         <WeatherInfoLabel>Weather Info </WeatherInfoLabel>
         <WeatherInfoContainer>
             <WeatherInfoComponent name="Sunrise" value={getTime(weather?.sys.sunrise)}/>
-            <WeatherInfoComponent name="Humidity" value={weather?.main?.humidity}/>
-            <WeatherInfoComponent name="Wind" value={weather?.wind?.apeed}/>
+            <WeatherInfoComponent name="Humidity" value={weather?.main?.humidity + ' %'}/>
+            <WeatherInfoComponent name="Wind" value={weather?.wind?.speed + ' m/s'}/>
         </WeatherInfoContainer>
+    
     </>
     );
 };

@@ -11,7 +11,7 @@ const Container = styled.div`
   margin: auto;
   align-items: center;
   width: 380px;
-  border-radius: 4x;
+  border-radius: 8px;
   box-shadow: 0 3px 6px 0 #555;
   padding: 20px 10px;
   background: #eee;
