@@ -1,12 +1,12 @@
 ## Table of Contents
-1. [General Information](#general-info)
-2. [Screenshots]($screenshots)
-3. [Technologies/FrameWork](#technologies/framework)
-4. [Features](#features)
-5. [Installation](#installation)
-6. [How to use?](#howtouse?)
-7. [API References](#apireferences)
-8. [Icon References](#iconreferences)
+1. [General Information]
+2. [Screenshots]
+3. [Technologies/FrameWork]
+4. [Features]
+5. [Installation]
+6. [How to use?]
+7. [API References]
+8. [Icon References]
 
 # General Information
 
@@ -26,15 +26,15 @@ Screenshot of weather information page.\
 * JavaScript 16.13.1
 
 # Features
-* WeatherApp helps users to find important parts of weather information such as sunrise time, wind, and temperature easily.\
+* WeatherApp helps users to find important parts of weather information such as sunrise time, wind, and temperature easily.
 
 # Installation 
 
 An intro of installation
 
-$ git clone https://github.com/yeeunPark0630/WeatherApp
-$ cd weather-app
-$ npm install
+$ git clone https://github.com/yeeunPark0630/WeatherApp \
+$ cd weather-app \
+$ npm install \
 $ npm start
 
 # How to use?
@@ -52,5 +52,5 @@ sunrise icon from freeicons.io by www.wishforge.games  <br />
 wind icon from freeicons.io by www.wishforge.games  <br />
 humidity, night icons from flaticons.com by pixel perfect\
 thunderstorm icons from freeicons.io by EDT.Graphics\
-sunny, cloudy, cloudy-night, night, rain, rain2, snow icons from freeicons.io by oscar Estont\
+sunny, cloudy, cloudy-night, night, rain, rain2, snow icons from freeicons.io by oscar Estont
 
